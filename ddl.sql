@@ -1,5 +1,6 @@
 create database fincaCacao;
 use fincaCacao;
+
 -- drop database fincaCacao;
 create table proveedores(
 id_proveedor int auto_increment primary key,
