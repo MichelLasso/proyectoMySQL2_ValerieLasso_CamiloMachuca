@@ -82,7 +82,9 @@ peso decimal(10,2),
 unidad_de_medida varchar(50),
 costo decimal(10,2),
 fecha_verncimiento date,
-metodo_aplicacion varchar(50)
+metodo_aplicacion varchar(50),
+id_compra int,
+foreign key(id_compra) references compras(id_compra)
 );
 
 create table herramientas(
@@ -341,5 +343,19 @@ id_herramienta int,
 foreign key(id_herramienta)references herramientas(id_herramienta),
 id_cultivo int,
 foreign key(id_cultivo)references cultivo(id_cultivo)
+);
+
+create table daños(
+id_daño int auto_increment primary key,
+tipo varchar(50),
+descripcion varchar(150),
+costo_reparacion decimal(10,2),
+fecha_daño date,
+fecha_reparacion date,
+fecha_reparacion_terminada date,
+id_herramienta int,
+foreign key(id_herramienta) references herramientas(id_herramienta),
+id_maquina int,
+foreign key(id_maquina) references maquinaria(id_maquinaria)
 );
 
