@@ -44,7 +44,9 @@ fecha_compra date,
 estado varchar(50),
 deuda int,
 id_finca int,
-foreign key(id_finca)references finca(id_finca)
+foreign key(id_finca)references finca(id_finca),
+id_proveedor int,
+foreign key(id_proveedor) references proveedores(id_proveedor)
 );
 
 create table cultivo(
@@ -158,17 +160,6 @@ id_cargo int,
 foreign key(id_cargo) references cargos(id_cargo)
 );
 
-create table pagos_finca(
-id_pago_finca int auto_increment primary key,
-pago_servicios decimal(10,2),
-pagos_extras decimal(10,2),
-fecha_pago_servicios date,
-fecha_pago_extras date,
-descripcion_pago_servicios varchar(50),
-descripcion_pago_extra varchar(50),
-id_finca int,
-foreign key(id_finca)references finca(id_finca)
-);
 
 create table Horarios_empleados(
 id_horario_empleado int auto_increment primary key,
