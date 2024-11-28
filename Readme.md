@@ -1,4 +1,4 @@
-# Gestion de una finca de produccion de cacao
+# Gestión de una finca de producción de cacao
 
 ## Descripción 
 El proyecto gestion de una finca de produccion de cacao tiene como finalidad automatizar y gestionar todos los aspectos de una finca agricola que produce cacao y subproductos del mismo, desde el control del cultivo, el monitoreo de plantas y maquinarias, hasta la gestion de compras, ventas y agroquimicos. La base de datos se centra en optimizar la producción y el mantenimiento de la finca, proporcionando un sistema eficiente para la gestion de recursos que se requieren en una finca.
