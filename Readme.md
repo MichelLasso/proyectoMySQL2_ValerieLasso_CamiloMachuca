@@ -307,4 +307,5 @@ Este proyecto fue desarrollado por Camilo Machuca Vega y Valerie Michel Lasso Li
 * **Camilo Machuca:** Diseño parte de la base de datos, creacion de tablas, realizo diagrama logico, diagrama UML, realizo 50 consultas, 10 eventos, 10 funciones, 10 procedimientos, 10 trigger, normalizacion, Readme,  parte del word documentacion.
 
 * **Valerie Lasso:** Diseño parte de la base de datos, realizo inserciones, realizo diagrama conceptual, realizo 50 consultas, 10 eventos, 10 funciones, 10 procedimientos, 10 trigger, 5 usuarios, normalizacion, parte del word documentacion.
+* Link video Explicativo proyecto: https://drive.google.com/file/d/1bc2VuJDGMkncZXOtie1gcU8q936-7Hfl/view?usp=sharing
 
